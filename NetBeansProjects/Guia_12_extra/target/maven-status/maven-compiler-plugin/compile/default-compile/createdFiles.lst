@@ -1,0 +1,12 @@
+guia_12_extra\Guia_12_extra.class
+guia_12_extra\Ej_1_extra.class
+Servicio\VeleroService.class
+Entidad\BarcoaMotor.class
+Entidad\Velero.class
+Entidad\YateDeLujo.class
+Entidad\Barco.class
+Servicio\BarcoaMotorService.class
+Entidad\Alquiler.class
+Servicio\AlquilerService.class
+Servicio\BarcoService.class
+Servicio\YateDeLujoService.class
