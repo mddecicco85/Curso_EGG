@@ -1,0 +1,56 @@
+table{
+    border-color: #333;
+    border-collapse: collapse;
+}
+table tr:first-of-type th{
+    background-image:url(./fondo_gris.gif);
+}
+td, th{
+    text-align: center;
+    padding: 5px;
+}
+table tr:nth-child(2) th{
+    background-image: url(euro.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size:16px;
+    background-color: #E6F3FF;
+    padding-left: 18px;
+    text-align: left;
+}
+table tr:nth-child(3) th{
+    background-image: url(dolar.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size:16px;
+    background-color: #E6F3FF;
+    padding-left: 18px;
+    text-align: left;
+}
+table tr:nth-child(4) th{
+    background-image: url(libra.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size:16px;
+    background-color: #E6F3FF;
+    padding-left: 18px;
+    text-align: left;
+}
+table tr:nth-child(5) th{
+    background-image: url(yen.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size:16px;
+    background-color: #E6F3FF;
+    padding-left: 18px;
+    text-align: left;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table tr:nth-child(2) td{
+    background-color: #FFFFCC;
+}
+table tr:nth-child(4) td{
+    background-color: #FFFFCC;
+}

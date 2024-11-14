@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registrar un usuario</h1>
+    <form>
+        <label>Nombre del usuario</label><br>
+        <input name="nombre" type="text"><br>
+        <label>Contraseña del usuario</label><br>
+        <input name="contrasenia" type="password"><br>
+        <label>Edad del usuario</label><br>
+        <input name="edad" type="number"><br>
+        <label>Fecha de nacimiento del usuario</label><br>
+        <input name="nacimiento" type="date"><br>
+        <label>Sexo del usuario</label><br>
+        <input name="hombre" id="hombre" type="radio" value="1">
+        <label for="hombre">Hombre</label><br>
+        <input name="mujer" id="mujer" type="radio" value="2">
+        <label for="mujer">Mujer</label><br>
+        <input name="otro" id="otro" type="radio" value="3">
+        <label for="otro">Prefiero no decir</label><br>
+        <label>País de nacimiento del usuario</label><br>
+        <select name="pais">
+            <option>Argentina</option>
+            <option>Brasil</option>
+            <option>Chile</option>
+            <option>Colombia</option>
+            <option>Ecuador</option>
+            <option>Perú</option>
+            <option>Uruguay</option>
+            <option>Venezuela</option>
+        </select><br>
+        <button>Enviar</button>
+        <button>Borrar</button>
+    </form>    
+</body>
+</html>
